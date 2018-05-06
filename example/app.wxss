@@ -1,2 +1,1 @@
 @import "./style/weui.wxss";
-@import './style/y-ui.wxss';
