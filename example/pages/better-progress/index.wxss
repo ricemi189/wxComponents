@@ -1,1 +1,11 @@
-@import '../../components/better-progress/index.wxss';
+.progress-container{
+  height: 100%;
+  padding: 0 5%;
+  padding-top: 400rpx;
+  box-sizing: border-box;
+}
+.progress-tip {
+  text-align: center;
+  margin-top: 70rpx;
+  font-size: 18px;
+}
