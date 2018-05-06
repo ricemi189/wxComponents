@@ -76,3 +76,19 @@ better-progress view {
 ## 演示
 
 ![](http://cdn.wakeuptocode.me/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20180506212716.png)
+
+```css
+/*背景色*/
+.bg-success{
+  background-color: #28a745!important;
+}
+.bg-info{
+  background-color: #17a2b8!important;
+}
+.bg-warning{
+  background-color: #ffc107!important;
+}
+.bg-danger{
+  background-color: #dc3545!important;
+}
+```

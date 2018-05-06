@@ -1,15 +1,39 @@
 Component({
   /**
-   * 组件的外部样式
+   * 组件的外部样式 - 类似hover-class
    */
-  externalClasses: ['bg'],
+  externalClasses: ['hover-class'],
   /**
-   * 组件的属性列表
+   * 组件的对外属性
    */
   properties: {
     percentage: {
       type: Number,
       value: 0
+    },
+    progressHeight: {
+      type: String,
+      value: '50rpx'
+    },
+    fontSize: {
+      type: String,
+      value: '0.75rem'
+    },
+    progressBarAnimated: {
+      type: String,
+      value: ''
+    },
+    progressBarStriped: {
+      type: String,
+      value: ''
+    },
+    progressBackground: {
+      type: String,
+      value: '#e9ecef'
+    },
+    progressBarBackground: {
+      type: String,
+      value: '#1AAD19'
     }
   },
 

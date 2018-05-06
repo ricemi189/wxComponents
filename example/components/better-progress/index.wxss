@@ -9,13 +9,10 @@
   margin-top: 70rpx;
   font-size: 18px;
 }
-:host{
+.progress{
   display: -webkit-box;
   display: flex;
-  height: 1rem;
   overflow: hidden;
-  font-size: 0.75rem;
-  background-color: #e9ecef;
   border-radius: 0.25rem;
 }
 .progress-bar {
@@ -29,22 +26,9 @@
   justify-content: center;
   color: #fff;
   text-align: center;
-  background-color: #1AAD19;
   transition: width 0.6s ease;
 }
-/*背景色*/
-.bg-success{
-  background-color: #28a745!important;
-}
-.bg-info{
-  background-color: #17a2b8!important;
-}
-.bg-warning{
-  background-color: #ffc107!important;
-}
-.bg-danger{
-  background-color: #dc3545!important;
-}
+
 /*进度条动画*/
 @-webkit-keyframes progress-bar-stripes {
   from {
@@ -62,27 +46,13 @@
     background-position: 0 0;
   }
 }
-/*进度条背景色*/
-.progress-bg-primary view{
-  background-color: #007bff;
-}
-.progress-bg-success view{
-  background-color: #28a745!important;
-}
-.progress-bg-info view{
-  background-color: #17a2b8!important;
-}
-.progress-bg-warning view{
-  background-color: #ffc107!important;
-}
-.progress-bg-danger view{
-  background-color: #dc3545!important;
-}
-.progress-bar-striped view{
+.progressBarStriped {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 1rem 1rem;
 }
-.progress-bar-animated view{
+.progressBarAnimated {
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 1rem 1rem;
   -webkit-animation: progress-bar-stripes 1s linear infinite;
   animation: progress-bar-stripes 1s linear infinite;
 }

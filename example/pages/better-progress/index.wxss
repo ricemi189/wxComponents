@@ -1,8 +1,1 @@
 @import '../../components/better-progress/index.wxss';
-better-progress {
-  height: 60rpx!important;
-  background-color:#d3d3d3!important;
-}
-better-progress view {
-  background-color: orange!important;
-}
