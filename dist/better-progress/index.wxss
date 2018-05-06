@@ -1,3 +1,14 @@
+.progress-container{
+  height: 100%;
+  padding: 0 5%;
+  padding-top: 400rpx;
+  box-sizing: border-box;
+}
+.progress-tip {
+  text-align: center;
+  margin-top: 70rpx;
+  font-size: 18px;
+}
 :host{
   display: -webkit-box;
   display: flex;
@@ -52,19 +63,19 @@
   }
 }
 /*进度条背景色*/
-.progress-bg-default {
+.progress-bg-primary view{
   background-color: #007bff;
 }
-.progress-bg-success{
+.progress-bg-success view{
   background-color: #28a745!important;
 }
-.progress-bg-info{
+.progress-bg-info view{
   background-color: #17a2b8!important;
 }
-.progress-bg-warning{
+.progress-bg-warning view{
   background-color: #ffc107!important;
 }
-.progress-bg-danger{
+.progress-bg-danger view{
   background-color: #dc3545!important;
 }
 .progress-bar-striped view{

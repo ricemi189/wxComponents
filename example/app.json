@@ -4,9 +4,11 @@
     "pages/better-progress/index"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#000",
+    "backgroundTextStyle": "dark",
+    "navigationBarTitleText": "wxComponents",
+    "backgroundColor": "#e5e5e5",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh":true
   }
 }

@@ -1,4 +1,3 @@
-@import './style/y-ui.wxss';
 .container {
   height: 100%;
   display: flex;
