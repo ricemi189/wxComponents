@@ -1,5 +1,6 @@
 <view class="progress-container">
   <better-progress
+    fontSize="14px"
     progressHeight="50rpx"
     progressBackground="#d3d3d3"
     progressBarAnimated

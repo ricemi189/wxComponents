@@ -7,17 +7,13 @@ Component({
    * 组件的对外属性
    */
   properties: {
-    percentage: {
-      type: Number,
-      value: 0
+    fontSize: {
+      type: String,
+      value: '0.75rem'
     },
     progressHeight: {
       type: String,
       value: '50rpx'
-    },
-    fontSize: {
-      type: String,
-      value: '0.75rem'
     },
     progressBarAnimated: {
       type: String,
@@ -34,6 +30,10 @@ Component({
     progressBarBackground: {
       type: String,
       value: '#1AAD19'
+    },
+    percentage: {
+      type: Number,
+      value: 0
     }
   },
 
