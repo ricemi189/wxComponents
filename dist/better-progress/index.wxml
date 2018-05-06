@@ -1,0 +1,2 @@
+<view class="progress-bar" style="width: {{percentage}}%">{{percentage}}%</view>
+<slot></slot>

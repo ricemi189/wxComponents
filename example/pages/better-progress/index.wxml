@@ -1,0 +1,4 @@
+<view class="progress-container">
+  <better-progress class="progress-bar-striped progress-bar-animated" percentage="{{percentage}}"></better-progress>
+  <view class="progress-tip">{{year}}年已经过去了{{percentage}}%</view>
+</view>
